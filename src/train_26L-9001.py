@@ -80,6 +80,8 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
+print("Data preprocessing completed.")
+
 print("Feature normalization completed.")
 
 
